@@ -3,6 +3,7 @@ echo compilation finished.
 chmod +x icecream
 echo exicution settings set
 path="/usr/bin"
+sudo mkdir -p /etc/icecream && sudo mv icecream.conf /etc/icecream
 echo move exec to /bin or /usr/bin[/usr/bin]:
 read path
 if [[ path == "" ]]
